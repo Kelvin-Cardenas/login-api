@@ -1,0 +1,9 @@
+{
+    "conexion":{
+        "server" : "localhost",
+        "user" : "root",
+        "password" : "70868865",
+        "database" : "bd_ventas",
+        "port" : "3306"
+    }
+}

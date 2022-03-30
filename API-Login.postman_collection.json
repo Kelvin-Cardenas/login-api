@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "adaa5119-5af7-4e0a-8ee3-ceb26f755785",
+		"name": "API-Login",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:82/apilogin/auth.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"usuario\" : \"max20\",\r\n    \"contrasena\" : \"1234\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:82/apilogin/auth.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "82",
+					"path": [
+						"apilogin",
+						"auth.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
